@@ -3,6 +3,7 @@ name: Validate SQL50 notebooks
 on:
   push:
     branches:
+      - main
       - build/finalize
   pull_request:
     branches:
